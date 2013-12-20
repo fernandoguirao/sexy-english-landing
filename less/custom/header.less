@@ -2,7 +2,7 @@ header {
   padding-top:0;
   padding-bottom:0;
   .bg-turquoise {
-    background-color:rgba(red(@fresa),green(@fresa),blue(@fresa),.6);
+    background-color:rgba(red(darken(@fresa,10%)),green(darken(@fresa,10%)),blue(darken(@fresa,10%)),.7);
   }
   .bg-alizarin {
     background-color:rgba(red(@carne),green(@carne),blue(@carne),.4);
@@ -106,6 +106,9 @@ header {
         font-size:20px!important;
       }
     }
-
+    .header-18-sub .pt-page-current, .header-18 .header-18-sub .no-js .pt-page {
+      overflow-x: hidden!important;
+      width:100%!important;
+    }
 }
 

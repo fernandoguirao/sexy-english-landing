@@ -6,12 +6,12 @@
 <!-- end -->
 <link rel="stylesheet" href="common-files/css/animations.css">
 
-<link rel="stylesheet/less" type="text/css" href="less/style.less" />
-<!-- <link rel="stylesheet" href="css/style.css" /> -->
+<!-- <link rel="stylesheet/less" type="text/css" href="less/style.less" /> -->
+<link rel="stylesheet" href="less/style.css" />
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 <script src="../../flat-ui/js/html5shiv.js"></script>
 <![endif]-->
 
-<script src="js/less.js" type="text/javascript"></script>
+<!-- <script src="js/less.js" type="text/javascript"></script> -->
