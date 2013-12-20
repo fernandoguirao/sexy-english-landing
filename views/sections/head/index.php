@@ -24,11 +24,11 @@
                 <header>
                   <div class="container clearfix">
                     <div class="row">
-                      <div class="span4 offset1">
+                      <div class="span4 offset1 centrador">
                       
                         <a class="brand" href="#">
                           <img src="../../static/img/logo.png" width="350" alt="">
-                          <img class="icono" src="../../static/img/icono.png" width="60" alt="">
+                          <img class="icono" src="../../static/img/icono2.png" width="60" alt="">
                         </a>
                       </div>
                     </div>

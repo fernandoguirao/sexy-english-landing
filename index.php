@@ -8,6 +8,10 @@
   </head>
   <body>
     <?php
+      /* Modales */
+      include("views/sections/suscribe/send.php");
+      include("views/sections/suscribe/suscribed.php");
+      /* Fin modales */
       include ("views/sections/head/index.php");
       include ("views/sections/suscribe/index.php");
       include ("views/sections/foot/index.php");
