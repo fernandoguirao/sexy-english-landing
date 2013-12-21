@@ -1,7 +1,4 @@
-<?php if (isset($_GET['suscribed'])) { ?>
-  <!-- Modal -->
-
-  <div class="modal fade" id="modal-sent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-suscribed" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -15,7 +12,6 @@
         <div class="modal-footer">
           <button type="button" class="boton btn-claro btn btn-primary" data-dismiss="modal">Ok, comprendido</button>
         </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-<?php } ?>
+      </div>
+    </div>
+  </div>
