@@ -13,3 +13,4 @@
 <![endif]-->
 
 <!-- <script src="js/less.js" type="text/javascript"></script> -->
+<script src="js/modernizr.js" type="text/javascript"></script>

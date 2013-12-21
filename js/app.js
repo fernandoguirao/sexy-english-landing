@@ -14,6 +14,7 @@ function gup(name) {
         return results[1];
 }
 
+
 if(gup('suscribe')=="true"){
   $('#modal-sent').modal('show');
 }

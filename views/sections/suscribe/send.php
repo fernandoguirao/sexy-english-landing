@@ -14,3 +14,6 @@
       </div>
     </div>
   </div>
+<script type="text/javascript">
+  $('#modal-sent').modal('show');
+</script>
