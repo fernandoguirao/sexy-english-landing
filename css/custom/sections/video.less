@@ -1,0 +1,43 @@
+.container.centrador {
+  margin-top:125px;
+  position: relative;
+  z-index:2;
+  img {
+    display:block!important;
+    margin:0 auto!important;
+    max-width:82%;
+    &.icono {
+      width: 58px;
+      left: -21px;
+      position: relative;
+    }
+  }
+  h1 {
+    color:@carne;
+    margin-top: 40px;
+    font-weight: normal;
+    padding-bottom:57px;
+    @media(max-width:600px){
+      font-size: 23px;
+      letter-spacing: normal;
+
+    }
+  }
+}
+
+.video {
+  background-color:@fresa;
+/*   background-image:url('../images/bckg.jpg'); */
+}
+
+.fondo-rosa {
+  background-color:rgba(red(@fresa),green(@fresa),blue(@fresa),.5);
+  width:100%;
+  height:100%;
+  position: absolute;
+  z-index:2;
+}
+
+.arrow {
+  position: relative!important;
+}
