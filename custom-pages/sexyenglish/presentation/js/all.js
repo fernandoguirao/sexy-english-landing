@@ -3,6 +3,7 @@ $(document).ready(function() {
 	$('.show-suscribe').click(function(){
   	$('.subscribe-form').css({'bottom':'0','opacity':'1'});
   	$('#theinput').focus();
+  	$("html, body").animate({ scrollTop: 0 }, "slow");
 	});
 	
 	$('.no-thanks').click(function(){

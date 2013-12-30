@@ -17,6 +17,15 @@ module.exports = function(grunt) {
       }
     },
     
+    /* COFFEE */
+    coffee: {
+      compile: {
+        files: {
+          '../js/app.js': '../js/dev/app.coffee',
+          '../js/start.js': '../js/dev/start.coffee' 
+        }
+      }
+    },
     
     /* JADE TO PHP */
     jadephp: {
@@ -55,6 +64,10 @@ module.exports = function(grunt) {
         files: '../views/**/*.phtml',
         tasks: ['prettify']
       },
+      coffee : {
+        files: ['../js/dev/app.coffee','../js/dev/start.coffee'],
+        tasks: ['coffee']
+      },
       less : {
         files: '../css/app.less',
         tasks: ['less']
@@ -65,8 +78,9 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-jade-php');
   grunt.loadNpmTasks('grunt-prettify');
+  grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.registerTask('default', ['less','jadephp','prettify']);
+  grunt.registerTask('default', ['less','jadephp','prettify','coffee']);
 
 };
