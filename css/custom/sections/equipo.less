@@ -1,17 +1,33 @@
 #equipo {
+  .holder {
+    margin-top:-173px;
+    @media(max-width:670px){
+      margin-top:-23px;
+      .img {
+        width:100%!important;
+        max-width: 250px!important;
+      }
+    }
+  }
   h3 {
     line-height: 1.5;
     margin-top:16px;
+    border-bottom: 1px dashed;
+    padding-bottom: 10px;
+    margin-bottom: 36px;
+    text-align: center;
   }
   a {
     margin-right:19px;
+    top:12px;
+    position: relative;
   i {
     font-size:26px;
     text-decoration: none!important;
   }
   }
   p {
-    margin-top:-10px!important
+    margin-top:-22px!important
   }
   li {
     text-align: center;
@@ -24,5 +40,12 @@
     width:198px;
     height:258px;
     display:inline-block;
+  }
+  img.icono {
+    margin: 0 auto;
+    display: inherit;
+    width:125px;
+    margin-top: -47px;
+    margin-bottom: 34px;
   }
 }
