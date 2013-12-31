@@ -21,16 +21,32 @@
     margin-right:19px;
     top:12px;
     position: relative;
+    border-bottom: none;
   i {
-    font-size:26px;
+    font-size:36px;
+    color:#069;
     text-decoration: none!important;
   }
   }
   p {
-    margin-top:-22px!important
+    margin-top:-22px!important;
+    &.descripcion {
+      font-family: 'gt_walsheim_regular_oblique',sans-serif!important;
+      font-size: 15px;
+      line-height: 1.4;
+      text-align:left;
+      opacity: .7;
+      padding: 10px 14px;
+    }
   }
   li {
     text-align: center;
+    width:32%!important;
+    padding-right:20px!important;
+    @media(max-width:730px){
+      width:100%!important;
+      padding-right:inherit!important;
+    }
   }
   .img {
     .background-size();

@@ -1,1 +1,1 @@
-<?php require_once('views/html.phtml'); ?>
+<?php require_once('views/home/home.phtml'); ?>
